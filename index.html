@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>clone twitter by nr</title>
+    <!--connecting stylesheet-->
+    <link rel="stylesheet" href="css/master.css">
+    <!--connecting bootstrap 4.0.0-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!--connecting font awesome-->
+    <script src="https://use.fontawesome.com/156bd5f756.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <div class="row header">
+            <div class="wraper">
+                <div class="col-md-12 col-sm-12">
+                    <div class="left-header">
+                        <a href="#" class="left-header-menu">
+                            <span class="left-header-txt"><i class="fa fa-home left-header-icons" aria-hidden="true"></i> Home</span>
+                        </a>
+                        <a href="#" class="left-header-menu">
+                            <span class="left-header-txt"><i class="fa fa-bell-o" aria-hidden="true"></i> Notification</span>
+                        </a>
+                        <a href="#" class="left-header-menu">
+                            <span class="left-header-txt"><i class="fa fa-envelope-o" aria-hidden="true"></i> Messages</span>
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <a href="#">
+                            <img src="img/logo.png" class="header-logo">
+                        </a>
+                    </div>
+                    <div class="right-header">
+                        <input type="text" placeholder="Search Twitter" class="right-header-search">
+                        <a href="">
+                            <img src="img/right-header-search.png" class="right-header-search-ico">
+                        </a>
+                        <a href="" class="right-header-a-avatar">
+                            <img src="img/avatar.jpg" class="right-header-avatar">
+                        </a>
+                        <button class="right-header-button">Tweet</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row main">
+            <div class="col-lg-3 col-md-3 left-main">
+                <form action="" class="left-main-form">
+
+                    <img src="img/background.jpg" class="left-main-background">
+                    <img src="img/avatar.jpg" class="left-main-avatar">
+                    <h6 class="text-center left-main-form-caption"><b>M E O W</b></h6>
+                    <a href=""><p class="text-center left-main-form-link">@meow</p></a>
+
+                    <div class="row left-main-profile-stats">
+                        <div class="col-md-4">
+                            <span class="left-main-span">Tweets</span>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="left-main-span">Following</span>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="left-main-span">Followers</span>
+                        </div>
+                    </div>
+                    <div class="row left-main-profile-stats left-main-profile-stats-numbers">
+                        <div class="col-md-4">
+                            <span class="left-main-profile-stats-numbers-span">0</span>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="left-main-profile-stats-numbers-span">9</span>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="left-main-profile-stats-numbers-span">2</span>
+                        </div>
+                    </div>
+                </form>
+                <div class="row left-main-trends-form">
+                    <div class="col-md-12 left-main-trends">
+                        <h4><b>Trends for you</b></h4>
+                        <a href=""><b>#dota2</b></a> <br>
+                        <span  class="trands-span">2.5k tweets</span> <br>
+                        <a href=""><b>#gonavi</b></a> <br>
+                        <span  class="trands-span">2.5k tweets</span> <br>
+                        <a href=""><b>#ESLONE</b></a> <br>
+                        <span class="trands-span">2.5k tweets</span> <br>
+                        <a href=""><b>Golden boy</b></a> <br>
+                        <span  class="trands-span">2.5k tweets</span> <br>
+                        <a href=""><b>Крым</b></a> <br>
+                        <span class="trands-span">2.5k tweets</span> <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 center-main">
+                <div class="row center-main-row">
+                    <img src="img/avatar.jpg" class="center-main-avatar">
+                    <input type="text" placeholder="What's happening?" class="center-main-input">
+                </div>
+                <div class="row center-main-posts">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="img/arsenal-logo.jpg" class="center-main-post-img">
+                            <a href="" class="center-main-posts-a"><b class="center-main-posts-b">Arsenal FC</b></a>
+                            <span class="center-main-posts-login">@arsenal</span>
+                            <span>.</span>
+                            <span >2h</span> <br>
+                            <h6 class="center-main-posts-namepost">Good work</h6>
+                            <!-- <i class="fa fa-sort-desc" aria-hidden="true"></i> -->
+                            <img src="img/arsenal-post.jpg" class="center-main-posts-imgposts">
+                            <div class="center-main-posts-icons">
+                                <i class="fa fa-comment-o center-main-posts-icons-comment" aria-hidden="true"> 26</i>
+                                <i class="fa fa-retweet center-main-posts-icons-retweet" aria-hidden="true"> 15</i>
+                                <i class="fa fa-heart-o center-main-posts-icons-heart" aria-hidden="true"> 300</i>
+                                <i class="fa fa-envelope-o center-main-posts-icons-mail" aria-hidden="true"></i>
+                            </div>
+                            <hr id="hr-end-post">  
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="img/arsenal-logo.jpg" class="center-main-post-img">
+                            <a href="" class="center-main-posts-a"><b class="center-main-posts-b">Arsenal FC</b></a>
+                            <span class="center-main-posts-login">@arsenal</span>
+                            <span>.</span>
+                            <span >2h</span> <br>
+                            <h6 class="center-main-posts-namepost">Good work</h6>
+                            <!-- <i class="fa fa-sort-desc" aria-hidden="true"></i> -->
+                            <img src="img/arsenal-post.jpg" class="center-main-posts-imgposts">
+                            <div class="center-main-posts-icons">
+                                <i class="fa fa-comment-o center-main-posts-icons-comment" aria-hidden="true"> 26</i>
+                                <i class="fa fa-retweet center-main-posts-icons-retweet" aria-hidden="true"> 15</i>
+                                <i class="fa fa-heart-o center-main-posts-icons-heart" aria-hidden="true"> 300</i>
+                                <i class="fa fa-envelope-o center-main-posts-icons-mail" aria-hidden="true"></i>
+                            </div>
+                            <hr id="hr-end-post"> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="img/arsenal-logo.jpg" class="center-main-post-img">
+                            <a href="" class="center-main-posts-a"><b class="center-main-posts-b">Arsenal FC</b></a>
+                            <span class="center-main-posts-login">@arsenal</span>
+                            <span>.</span>
+                            <span >2h</span> <br>
+                            <h6 class="center-main-posts-namepost">Good work</h6>
+                            <!-- <i class="fa fa-sort-desc" aria-hidden="true"></i> -->
+                            <img src="img/arsenal-post.jpg" class="center-main-posts-imgposts">
+                            <div class="center-main-posts-icons">
+                                <i class="fa fa-comment-o center-main-posts-icons-comment" aria-hidden="true"> 26</i>
+                                <i class="fa fa-retweet center-main-posts-icons-retweet" aria-hidden="true"> 15</i>
+                                <i class="fa fa-heart-o center-main-posts-icons-heart" aria-hidden="true"> 300</i>
+                                <i class="fa fa-envelope-o center-main-posts-icons-mail" aria-hidden="true"></i>
+                            </div>
+                            <hr id="hr-end-post">  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 right-main">
+                <div class="right-main-who2follow">
+                    <h5><b>Who to follow</b></h5>
+                    <img src="img/kharlamov-avatar.jpg" class="right-main-avatars">
+                    <span><b>Гарик Харламов </b>@garikhui</span>
+                    <button class="right-main-button">Follow</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
